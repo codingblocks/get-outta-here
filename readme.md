@@ -1,7 +1,7 @@
 # Get Outta Here!
 
-[https://thejoezack.itch.io/get-outta-here](Available on itch.io)
-[https://www.youtube.com/watch?v=xTM3GeMiz54](Game Design + Playthrough on YouTube)
+- [Available on itch.io](https://thejoezack.itch.io/get-outta-here)
+- [Game Design + Playthrough on YouTube](https://www.youtube.com/watch?v=xTM3GeMiz54)
 
 ## Game Description
 
