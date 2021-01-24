@@ -1,0 +1,207 @@
+[
+    {
+        "sprite": {
+            "x": 8,
+            "y": 11,
+            "sheet_tile_size": 24,
+            "sheet": "assets\\sprites\\Oryx-SciFi\\oryx_16bit_scifi_vehicles_trans.png"
+        },
+        "selectable": false,
+        "title": "Get Outta Here!",
+        "text": "Win the Game, -300 fuel",
+        "type": "Special",
+        "special_action": "win",
+        "modifiers": {
+            "fuel": -300
+        },
+        "starting_quantity": 1
+    },
+    {
+        "sprite": {
+            "x": 0,
+            "y": 33
+        },
+        "title": "Jr Officer",
+        "text": "-1s to draw cooldown time, -10 Energy",
+        "type": "Personnel",
+        "modifiers": {
+            "energy": -15,
+            "draw_cooldown_s": -1
+        },
+        "starting_quantity": 1
+    },
+    {
+        "sprite": {
+            "x": 10,
+            "y": 33
+        },
+        "title": "Bridge Officer",
+        "text": "-2s to draw cooldown time, -30 Energy",
+        "type": "Personnel",
+        "modifiers": {
+            "energy": -30,
+            "draw_cooldown_s": -2
+        }
+    },
+    {
+        "sprite": {
+            "x": 11,
+            "y": 20
+        },
+        "title": "Scientist",
+        "text": "+1 to card draw, -25 Energy",
+        "type": "Personnel",
+        "modifiers": {
+            "energy": -25,
+            "draw_size": 1
+        }
+    },
+    {
+        "sprite": {
+            "x": 5,
+            "y": 2,
+            "sheet_tile_size": 16,
+            "sheet": "assets\\sprites\\Oryx-SciFi\\oryx_16bit_scifi_items_trans.png"
+        },
+        "file": "oryx_16bit_scifi_items_trans.png",
+        "title": "Add a Card",
+        "text": "Pick another card, -25 Energy",
+        "type": "Effect",
+        "special_action": "buy",
+        "modifiers": {
+            "energy": -25
+        },
+        "starting_quantity": 1
+    },
+    {
+        "sprite": {
+            "x": 11,
+            "y": 11
+        },
+        "title": "Research Specialist",
+        "text": "+1 to Card Choice, -75 Energy",
+        "type": "Personnel",
+        "modifiers": {
+            "card_choices": 1,
+            "energy": -75
+        }
+    },
+    {
+        "sprite": {
+            "x": 11,
+            "y": 4,
+            "sheet_tile_size": 16,
+            "sheet": "assets\\sprites\\Oryx-SciFi\\oryx_16bit_scifi_items_trans.png"
+        },
+        "title": "Big Breakfast",
+        "text": "+15 Energy, -2 fuel",
+        "type": "Effect",
+        "modifiers": {
+            "energy": 15,
+            "fuel": -2
+        },
+        "starting_quantity": 1
+    },
+    {
+        "sprite": {
+            "x": 12,
+            "y": 4,
+            "sheet_tile_size": 16,
+            "sheet": "assets\\sprites\\Oryx-SciFi\\oryx_16bit_scifi_items_trans.png"
+        },
+        "title": "Large Lunch",
+        "text": "+25 Energy, -5 Fuel",
+        "type": "Effect",
+        "modifiers": {
+            "energy": 25,
+            "fuel": -5
+        }
+    },
+    {
+        "sprite": {
+            "x": 13,
+            "y": 4,
+            "sheet_tile_size": 16,
+            "sheet": "assets\\sprites\\Oryx-SciFi\\oryx_16bit_scifi_items_trans.png"
+        },
+        "title": "Delicious Dinner",
+        "text": "+55 Energy, -12 Fuel",
+        "type": "Effect",
+        "modifiers": {
+            "energy": 55,
+            "fuel": -12
+        }
+    },
+    {
+        "sprite": {
+            "x": 15,
+            "y": 7,
+            "sheet_tile_size": 16,
+            "sheet": "assets\\sprites\\Oryx-SciFi\\oryx_16bit_scifi_items_trans.png"
+        },
+        "title": "Whatever it takes!",
+        "text": "+20 Fuel, -30 Energy",
+        "type": "Effect",
+        "modifiers": {
+            "energy": -30,
+            "fuel": 20
+        },
+        "starting_quantity": 2
+    },
+    {
+        "sprite": {
+            "x": 16,
+            "y": 7,
+            "sheet_tile_size": 16,
+            "sheet": "assets\\sprites\\Oryx-SciFi\\oryx_16bit_scifi_items_trans.png"
+        },
+        "title": "Go Go Go!",
+        "text": "+40 Fuel, -50 Energy",
+        "type": "Effect",
+        "modifiers": {
+            "energy": -50,
+            "fuel": 40
+        }
+    },
+    {
+        "sprite": {
+            "x": 18,
+            "y": 7,
+            "sheet_tile_size": 16,
+            "sheet": "assets\\sprites\\Oryx-SciFi\\oryx_16bit_scifi_items_trans.png"
+        },
+        "title": "Loose the Juice",
+        "text": "+80 Fuel, -90 Energy",
+        "type": "Effect",
+        "modifiers": {
+            "energy": -90,
+            "fuel": 80
+        }
+    },
+    {
+        "sprite": {
+            "x": 11,
+            "y": 38
+        },
+        "title": "Accountant",
+        "text": "-1s energy recharge cooldown, -30 Energy",
+        "type": "Personnel",
+        "modifiers": {
+            "energy": -30,
+            "energy_recharge_cooldown_s": -1
+        }
+    },
+    {
+        "sprite": {
+            "x": 19,
+            "y": 38
+        },
+        "title": "Certified Accountant",
+        "text": "-3s energy recharge cooldown, -60 Energy",
+        "type": "Personnel",
+        "modifiers": {
+            "energy": -60,
+            "energy_recharge_cooldown_s": -3
+        }
+    }
+]

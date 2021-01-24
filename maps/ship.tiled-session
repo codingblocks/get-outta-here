@@ -1,0 +1,87 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "win.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "lose.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 380,
+                "y": 241.66666666666669
+            }
+        },
+        "oryx_16bit_scifi_FX_lg_trans.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "oryx_16bit_scifi_interface_trans.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "oryx_16bit_scifi_vehicles_trans.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "oryx_16bit_scifi_world_trans.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "ship2.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 332.66666666666663,
+                "y": 242.3333333333333
+            }
+        },
+        "title.tmx": {
+            "scale": 3,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 329.3333333333333,
+                "y": 179.83333333333334
+            }
+        },
+        "win.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 329.3333333333333,
+                "y": 179.83333333333334
+            }
+        }
+    },
+    "map.height": 20,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 24,
+    "map.tileWidth": 24,
+    "map.width": 30,
+    "openFiles": [
+        "win.tmx",
+        "win.tmx",
+        "lose.tmx",
+        "oryx_16bit_scifi_world_trans.tsx"
+    ],
+    "project": "ship.tiled-project",
+    "recentFiles": [
+        "oryx_16bit_scifi_world_trans.tsx",
+        "lose.tmx",
+        "win.tmx",
+        "title.tmx",
+        "oryx_16bit_scifi_FX_lg_trans.tsx",
+        "oryx_16bit_scifi_interface_trans.tsx",
+        "oryx_16bit_scifi_vehicles_trans.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 24,
+        "width": 24
+    }
+}
