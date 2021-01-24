@@ -1,5 +1,7 @@
 # Get Outta Here!
 
+![Screenshot of Get Outta Here game](https://raw.githubusercontent.com/codingblocks/gotta-get-out/main/main.png)
+
 - [Available on itch.io](https://thejoezack.itch.io/get-outta-here)
 - [Game Design + Playthrough on YouTube](https://www.youtube.com/watch?v=xTM3GeMiz54)
 
