@@ -1,6 +1,5 @@
-from distutils.core import setup
-import py2exe
 import glob
+from distutils.core import setup
 
 opts = {
     "py2exe": {
@@ -23,10 +22,10 @@ setup(
     data_files=[
         (r"assets\fonts\Press_Start_2P", glob.glob(r"assets\fonts\Press_Start_2P\*")),
         (r"assets\sprites\Oryx-SciFi", glob.glob(r"assets\sprites\Oryx-SciFi\*.png")),
-        (r"assets\sprites\Futuristic Cards\Futuristic Card Template - Alpha\Sliced\Regular Size", glob.glob(r"assets\sprites\Futuristic Cards\Futuristic Card Template - Alpha\Sliced\Regular Size\*")),
-        (r"assets\sprites\Futuristic Cards\Futuristic Card Template - Delta\Sliced\Regular Size", glob.glob(r"assets\sprites\Futuristic Cards\Futuristic Card Template - Delta\Sliced\Regular Size\*")),
-        (r"assets\sprites\Futuristic Cards\Futuristic Card Template - Epsilon\Sliced\Regular Size", glob.glob(r"assets\sprites\Futuristic Cards\Futuristic Card Template - Epsilon\Sliced\Regular Size\*")),
-        (r"data", glob.glob("data\cards.json")),
+        (r"assets\sprites\futuristic-cards-alpha", glob.glob(r"assets\sprites\futuristic_cards-alpha\*")),
+        (r"assets\sprites\futuristic-cards-delta", glob.glob(r"assets\sprites\futuristic_cards-delta\*")),
+        (r"assets\sprites\futuristic-cards-epsilon", glob.glob(r"assets\sprites\futuristic_cards-epsilon\*")),
+        (r"data", glob.glob(r"data\cards.json")),
         (r"maps", glob.glob(r"maps\*")),
     ],
 
