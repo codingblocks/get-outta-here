@@ -30,12 +30,6 @@ incredibly patient with me:
 - columferry
 - dsqrt4
 
-## About building this project...
-
-I didn't include the assets for this project, but you can find/buy them using the links below. If you drop them into
-an "assets" folder than everything should (wink) "just work". Ping me if you have any trouble with that and I can help
-you!
-
 ## How to play the Game
 
 ### Get it from itch.io (Windows only)
@@ -50,7 +44,7 @@ This is the preferred approach if you care security.
 
 #### Set it up
 
-If you have ever had written a single line of python, you probably know what to do already and skip this section.
+If you have ever written a single line of python, you probably know what to do already and skip this section.
 
 - make sure you have [Python3](https://www.python.org/) installed
 - clone this repository and change into the newly created directory
