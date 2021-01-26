@@ -3,6 +3,9 @@ import pytest
 from src.scenes.cards.player_cards import PlayerCards
 from src.scenes.cards.card import Card
 
+# the imports now break the tests, probably because they depend
+# on relative paths in config.py which don't apply in test/
+
 pygame.init()
 pygame.display.set_mode((800, 600))
 
