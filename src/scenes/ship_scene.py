@@ -4,7 +4,7 @@ from src.scenes.player import Player
 from src.scenes.scene import Scene
 from pytmx import load_pygame
 from pygame import Surface
-from src.config import (SHIP_TMX_PATH, MAP_TILE_WIDTH, MAP_TILE_HEIGHT)
+from src.config import (MAPS, MAP_TILE_WIDTH, MAP_TILE_HEIGHT)
 import typing
 from src.scenes.ui import Ui
 import src.scenes.globals as g
@@ -14,7 +14,7 @@ class ShipScene(Scene):
     def __init__(self, title: str = "Scene", state: dict = typing.Dict):
         self.resources = g.resources
         self.ui = Ui()
-        self.tmx_data = load_pygame(SHIP_TMX_PATH)
+        self.tmx_data = load_pygame(MAPS['ship'])
         super().__init__(title, state)
 
         self.player = Player()

@@ -1,7 +1,7 @@
 import pygame
 from pytmx import load_pygame
 
-from src.config import LOSE_SCREEN_TMX_PATH
+from src.config import MAPS
 from src.scenes.scene import Scene
 from pygame import Surface
 import typing
@@ -12,11 +12,11 @@ class LoseScene(Scene):
     def __init__(self, title: str = "Scene", state: dict = typing.Dict):
         self.resources = g.resources
         self.messaging = g.messaging
-        self.tmx_data = load_pygame(LOSE_SCREEN_TMX_PATH)
+        self.tmx_data = load_pygame(MAPS['lose_screen'])
         super().__init__(title, state)
 
     def update(self, dt):
-        g.messaging.alert(f"You lost because you ran out of {self.state.get('reason','?')}", 1)
+        g.messaging.alert(f"You lost because you ran out of {self.state.get('reason', '?')}", 1)
         g.messaging.update(dt)
         if pygame.mouse.get_pressed()[0]:
             self.change_scene("title")

@@ -1,7 +1,7 @@
 import pygame
 from pytmx import load_pygame
 
-from src.config import TITLE_SCREEN_TMX_PATH
+from src.config import MAPS
 from src.scenes.scene import Scene
 from pygame import Surface
 import typing
@@ -12,7 +12,7 @@ class TitleScene(Scene):
     def __init__(self, title: str = "Scene", state: dict = typing.Dict):
         self.resources = g.resources
         self.messaging = g.messaging
-        self.tmx_data = load_pygame(TITLE_SCREEN_TMX_PATH)
+        self.tmx_data = load_pygame(MAPS['title_screen'])
         super().__init__(title, state)
 
     def update(self, dt):
