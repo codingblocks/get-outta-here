@@ -1,0 +1,2 @@
+FileName = str
+DirName = str
